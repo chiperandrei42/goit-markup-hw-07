@@ -17,6 +17,45 @@
     <title>Studio</title>
   </head>
   <body>
+    <div class="js-menu-container">
+      <button class="menu-toggle js-close-menu">
+        <svg class="close-menu-svg-mobile">
+          <use href="/symbol-defs.svg#icon-mobile-menu-close"></use>
+        </svg>
+      </button>
+
+      <ul class="nav-list-mobile">
+        <li>
+          <a class="mobile-menu-navbar" href="index.html">Studio</a>
+        </li>
+        <li>
+          <a class="mobile-menu-navbar" href="portfolio.html">Portfolio</a>
+        </li>
+        <li><a class="mobile-menu-navbar" href="#">Contacts</a></li>
+      </ul>
+
+      <ul class="contact-list-mobile">
+        <li class="phone-mobile-class">
+          <a class="mobile-contact-links" href="#">+1 212-772-4150</a>
+        </li>
+        <li class="email-mobile-class">
+          <a class="mobile-contact-links" href="#">info@devstudio.com</a>
+        </li>
+      </ul>
+
+      <ul class="mobile-menu-socials">
+        <li>
+          <a class="mobile-social-links" href="#">Instagram</a><span>|</span>
+        </li>
+        <li>
+          <a class="mobile-social-links" href="#">Twitter</a><span>|</span>
+        </li>
+        <li>
+          <a class="mobile-social-links" href="#">Facebook</a><span>|</span>
+        </li>
+        <li><a class="mobile-social-links" href="#">LinkedIn</a></li>
+      </ul>
+    </div>
     <!--Header-->
     <header class="global-header">
       <div class="container">
@@ -26,6 +65,9 @@
               Web<span class="logo-secondary-color">Studio</span>
             </h1>
           </a>
+          <svg class="mobile-menu-icon js-open-menu">
+            <use href="/symbol-defs.svg#icon-mobile-menu-icon"></use>
+          </svg>
           <nav class="main-navigation pages">
             <ul class="list-class">
               <li>
@@ -81,69 +123,73 @@
       <div class="paragraph-container">
         <div class="container">
           <ul class="list-class">
-            <li>
-              <div class="svg-card-block">
-                <svg class="svg-card">
-                  <use
-                    href="./symbol-defs.svg#icon-effective-solutions-antenna"
-                  ></use>
-                </svg>
-              </div>
-              <p class="paragraph-text"><b>ATTENTION TO DETAILS</b></p>
-              <p class="paragraph-secondary">
-                We go into all the details and processes of your business to
-                develop a customized solution.
-              </p>
-            </li>
-            <li>
-              <div class="svg-card-block">
-                <svg class="svg-card">
-                  <use
-                    href="./symbol-defs.svg#icon-effective-solutions-clock"
-                  ></use>
-                </svg>
-              </div>
-              <p class="paragraph-text"><b>PUNCTUALITY</b></p>
-              <p class="paragraph-secondary">
-                With us, you can feel safe and secure. An important principle of
-                the company: respect your time and deadlines.
-              </p>
-            </li>
-            <li>
-              <div class="svg-card-block">
-                <svg class="svg-card">
-                  <use
-                    href="./symbol-defs.svg#icon-effective-solutions-diagram"
-                  ></use>
-                </svg>
-              </div>
-              <p class="paragraph-text"><b>PLANNING</b></p>
-              <p class="paragraph-secondary">
-                You will be able to observe and participate in every phase of
-                solution development and implementation.
-              </p>
-            </li>
-            <li>
-              <div class="svg-card-block">
-                <svg class="svg-card">
-                  <use
-                    href="./symbol-defs.svg#icon-effective-solutions-astronaut"
-                  ></use>
-                </svg>
-              </div>
-              <p class="paragraph-text"><b>MODERN TECHNOLOGIES</b></p>
-              <p class="paragraph-secondary">
-                We use innovative tools to solve assigned tasks. It's time to
-                simplify work processes.
-              </p>
-            </li>
+            <div class="effective-solutions-container1">
+              <li class="effective-solutions-cards">
+                <div class="svg-card-block">
+                  <svg class="svg-card">
+                    <use
+                      href="./symbol-defs.svg#icon-effective-solutions-antenna"
+                    ></use>
+                  </svg>
+                </div>
+                <p class="paragraph-text"><b>ATTENTION TO DETAILS</b></p>
+                <p class="paragraph-secondary">
+                  We go into all the details and processes of your business to
+                  develop a customized solution.
+                </p>
+              </li>
+              <li class="effective-solutions-cards">
+                <div class="svg-card-block">
+                  <svg class="svg-card">
+                    <use
+                      href="./symbol-defs.svg#icon-effective-solutions-clock"
+                    ></use>
+                  </svg>
+                </div>
+                <p class="paragraph-text"><b>PUNCTUALITY</b></p>
+                <p class="paragraph-secondary">
+                  With us, you can feel safe and secure. An important principle
+                  of the company: respect your time and deadlines.
+                </p>
+              </li>
+            </div>
+            <div class="effective-solutions-container2">
+              <li class="effective-solutions-cards">
+                <div class="svg-card-block">
+                  <svg class="svg-card">
+                    <use
+                      href="./symbol-defs.svg#icon-effective-solutions-diagram"
+                    ></use>
+                  </svg>
+                </div>
+                <p class="paragraph-text"><b>PLANNING</b></p>
+                <p class="paragraph-secondary">
+                  You will be able to observe and participate in every phase of
+                  solution development and implementation.
+                </p>
+              </li>
+              <li class="effective-solutions-cards">
+                <div class="svg-card-block">
+                  <svg class="svg-card">
+                    <use
+                      href="./symbol-defs.svg#icon-effective-solutions-astronaut"
+                    ></use>
+                  </svg>
+                </div>
+                <p class="paragraph-text"><b>MODERN TECHNOLOGIES</b></p>
+                <p class="paragraph-secondary">
+                  We use innovative tools to solve assigned tasks. It's time to
+                  simplify work processes.
+                </p>
+              </li>
+            </div>
           </ul>
         </div>
       </div>
-      <section class="section">
+      <section class="section-what-we-do">
         <div class="container">
           <section class="what-we-do-container">
-            <h2 class="heading-section">What we do</h2>
+            <h2 class="heading-section-what-we-do">What we do</h2>
 
             <div class="what-we-do-overlay-container">
               <div class="what-we-do-images">
@@ -191,196 +237,267 @@
           <div class="container">
             <h2 class="heading-section-our-team">Our Team</h2>
             <div class="our-team-section">
-              <div class="our-team-cards">
-                <img
-                  src="./images/product-designer.jpg"
-                  alt="product-designer-portrait"
-                  width="270"
-                />
-                <h4 class="primary-text">Christopher Walker</h4>
-                <p class="secondary-text">Product Designer</p>
-                <ul class="social-media-svgs">
-                  <li class="social-media-item">
-                    <a href class="svg-link">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-instagram"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a href class="svg-link">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-twitter"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="svg-link" href="instagram.com">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="svg-link" href="instagram.com">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-linkedin"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+              <div class="developer-media-container">
+                <div class="our-team-cards">
+                  <picture>
+                    <source
+                      media="(min-width:1158px)"
+                      srcset="/images/product-designer-d.jpg"
+                      width="270"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="/images/product-designer-t.jpg"
+                      width="354"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="/images/product-designer-m.jpg"
+                      width="450"
+                    />
+                    <img
+                      src="./images/product-designer-d.jpg"
+                      alt="product-designer-portrait"
+                      width="270"
+                    />
+                  </picture>
+                  <h4 class="primary-text">Christopher Walker</h4>
+                  <p class="secondary-text">Product Designer</p>
+                  <ul class="social-media-svgs">
+                    <li class="social-media-item">
+                      <a href class="svg-link">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-instagram"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a href class="svg-link">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-twitter"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a class="svg-link" href="instagram.com">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-facebook"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a class="svg-link" href="instagram.com">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-linkedin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
 
-              <div class="our-team-cards">
-                <img
-                  src="./images/frontend-developer.jpg"
-                  alt="frontend-developer-portrait"
-                  width="270"
-                />
-                <h4 class="primary-text">Kylie Evans</h4>
-                <p class="secondary-text">Frontend Developer</p>
-                <ul class="social-media-svgs">
-                  <li class="social-media-item">
-                    <a href class="svg-link">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-instagram"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a href class="svg-link">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-twitter"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="svg-link" href="instagram.com">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="svg-link" href="instagram.com">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-linkedin"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
+                <div class="our-team-cards">
+                  <picture>
+                    <source
+                      media="(min-width:1158px)"
+                      srcset="/images/frontend-developer-d.jpg"
+                      width="270"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="images/frontend-developer-t.jpg"
+                      width="354"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="images/frontend-developer-m.jpg"
+                      width="450"
+                    />
+                    <img
+                      src="images/frontend-developer-d.jpg"
+                      alt="frontend-developer-portrait"
+                      width="270"
+                    />
+                  </picture>
+                  <h4 class="primary-text">Kylie Evans</h4>
+                  <p class="secondary-text">Frontend Developer</p>
+                  <ul class="social-media-svgs">
+                    <li class="social-media-item">
+                      <a href class="svg-link">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-instagram"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a href class="svg-link">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-twitter"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a class="svg-link" href="instagram.com">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-facebook"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a class="svg-link" href="instagram.com">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-linkedin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
+              <div class="developer-media-container">
+                <div class="our-team-cards">
+                  <picture>
+                    <source
+                      media="(min-width:1158px)"
+                      srcset="/images/marketing-person-d.jpg"
+                      width="270"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="images/marketing-person-t.jpg"
+                      width="354"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="images/marketing-person-m.jpg"
+                      width="450"
+                    />
+                    <img
+                      src="images/marketing-person-d.jpg"
+                      alt="marketing-person-portrait"
+                      width="270"
+                    />
+                  </picture>
+                  <h4 class="primary-text">Ryan Harris</h4>
+                  <p class="secondary-text">Marketing</p>
+                  <ul class="social-media-svgs">
+                    <li class="social-media-item">
+                      <a href class="svg-link">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-instagram"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a href class="svg-link">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-twitter"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a class="svg-link" href="instagram.com">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-facebook"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a class="svg-link" href="instagram.com">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-linkedin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
 
-              <div class="our-team-cards">
-                <img
-                  src="./images/marketing-person.jpg"
-                  alt="marketing-person"
-                  width="270"
-                />
-                <h4 class="primary-text">Ryan Harris</h4>
-                <p class="secondary-text">Marketing</p>
-                <ul class="social-media-svgs">
-                  <li class="social-media-item">
-                    <a href class="svg-link">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-instagram"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a href class="svg-link">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-twitter"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="svg-link" href="instagram.com">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="svg-link" href="instagram.com">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-linkedin"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="our-team-cards">
-                <img
-                  src="./images/ui-designer.jpg"
-                  alt="ui-designer-portrait"
-                  width="270"
-                />
-                <h4 class="primary-text">Tyler Moore</h4>
-                <p class="secondary-text">UI Designer</p>
-                <ul class="social-media-svgs">
-                  <li class="social-media-item">
-                    <a href class="svg-link">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-instagram"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a href class="svg-link">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-twitter"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="svg-link" href="instagram.com">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="social-media-item">
-                    <a class="svg-link" href="instagram.com">
-                      <svg class="our-team-socials-light">
-                        <use
-                          href="./symbol-defs.svg#icon-our-team-linkedin"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
+                <div class="our-team-cards">
+                  <picture>
+                    <source
+                      media="(min-width:1158px)"
+                      srcset="images/ui-designer-d.jpg"
+                      width="270"
+                    />
+                    <source
+                      media="(min-width:768px)"
+                      srcset="images/ui-designer-t.jpg"
+                      width="354"
+                    />
+                    <source
+                      media="(min-width:480px)"
+                      srcset="images/ui-designer-m.jpg"
+                      width="450"
+                    />
+                    <img
+                      src="images/ui-designer-d.jpg"
+                      alt="ui-designer-portrait"
+                      width="270"
+                    />
+                  </picture>
+                  <h4 class="primary-text">Tyler Moore</h4>
+                  <p class="secondary-text">UI Designer</p>
+                  <ul class="social-media-svgs">
+                    <li class="social-media-item">
+                      <a href class="svg-link">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-instagram"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a href class="svg-link">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-twitter"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a class="svg-link" href="instagram.com">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-facebook"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-media-item">
+                      <a class="svg-link" href="instagram.com">
+                        <svg class="our-team-socials-light">
+                          <use
+                            href="./symbol-defs.svg#icon-our-team-linkedin"
+                          ></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -429,72 +546,76 @@
       <section class="footer-section">
         <div class="container">
           <div class="footer-parent-container">
-            <div class="footer-child-container">
-              <div class="logo-container-class">
-                <a class="link-class" href="index.html">
-                  <h2 class="logo-footer">
-                    Web<span class="logo-footer-color">Studio</span>
-                  </h2>
-                </a>
+            <div class="footer-tablet-view">
+              <div class="footer-child-container">
+                <div class="logo-container-class">
+                  <a class="link-class" href="index.html">
+                    <h2 class="logo-footer">
+                      Web<span class="logo-footer-color">Studio</span>
+                    </h2>
+                  </a>
+                </div>
+                <address class="footer-contact">
+                  <ul class="list-class">
+                    <li class="physical-address">
+                      695 Park Ave, NY 10065, USA
+                    </li>
+                    <li>
+                      <a
+                        class="footer-link-class"
+                        href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                      >
+                    </li>
+                    <li>
+                      <a class="footer-link-class" href="tel:+1-212-772-4150"
+                        >+1-212-772-4150</a
+                      >
+                    </li>
+                  </ul>
+                </address>
               </div>
-              <address class="footer-contact">
-                <ul class="list-class">
-                  <li class="physical-address">695 Park Ave, NY 10065, USA</li>
-                  <li>
-                    <a
-                      class="footer-link-class"
-                      href="mailto:info@devstudio.com"
-                      >info@devstudio.com</a
-                    >
+              <div class="footer-child-container">
+                <h4 class="find-us-footer">FIND US ON</h4>
+                <ul class="social-media-svgs">
+                  <li class="social-media-item">
+                    <a href class="svg-link-dark">
+                      <svg class="our-team-socials-light">
+                        <use
+                          href="./symbol-defs.svg#icon-our-team-instagram-light"
+                        ></use>
+                      </svg>
+                    </a>
                   </li>
-                  <li>
-                    <a class="footer-link-class" href="tel:+1-212-772-4150"
-                      >+1-212-772-4150</a
-                    >
+                  <li class="social-media-item">
+                    <a href class="svg-link-dark">
+                      <svg class="our-team-socials-light">
+                        <use
+                          href="./symbol-defs.svg#icon-our-team-twitter-light"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a class="svg-link-dark" href="instagram.com">
+                      <svg class="our-team-socials-light">
+                        <use
+                          href="./symbol-defs.svg#icon-our-team-facebook-light"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a class="svg-link-dark" href="instagram.com">
+                      <svg class="our-team-socials-light">
+                        <use
+                          href="./symbol-defs.svg#icon-our-team-linkedin-light"
+                        ></use>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
-              </address>
-            </div>
-            <div class="footer-child-container">
-              <h4 class="find-us-footer">FIND US ON</h4>
-              <ul class="social-media-svgs">
-                <li class="social-media-item">
-                  <a href class="svg-link-dark">
-                    <svg class="our-team-socials-light">
-                      <use
-                        href="./symbol-defs.svg#icon-our-team-instagram-light"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-media-item">
-                  <a href class="svg-link-dark">
-                    <svg class="our-team-socials-light">
-                      <use
-                        href="./symbol-defs.svg#icon-our-team-twitter-light"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-media-item">
-                  <a class="svg-link-dark" href="instagram.com">
-                    <svg class="our-team-socials-light">
-                      <use
-                        href="./symbol-defs.svg#icon-our-team-facebook-light"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social-media-item">
-                  <a class="svg-link-dark" href="instagram.com">
-                    <svg class="our-team-socials-light">
-                      <use
-                        href="./symbol-defs.svg#icon-our-team-linkedin-light"
-                      ></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+              </div>
             </div>
             <div class="footer-form">
               <form
@@ -514,14 +635,16 @@
                     pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                   />
                   <div class="footer-form-svg-container">
-                    <input
-                      class="newsletter-email-submit"
-                      type="submit"
-                      value="Subscribe"
-                    />
-                    <svg class="footer-send-icon">
-                      <use href="/symbol-defs.svg#footer-send-icon"></use>
-                    </svg>
+                    <div class="footer-form-button">
+                      <input
+                        class="newsletter-email-submit"
+                        type="submit"
+                        value="Subscribe"
+                      />
+                      <svg class="footer-send-icon">
+                        <use href="/symbol-defs.svg#footer-send-icon"></use>
+                      </svg>
+                    </div>
                   </div>
                 </div>
               </form>
@@ -629,5 +752,12 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
