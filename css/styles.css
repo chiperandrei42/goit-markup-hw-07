@@ -562,7 +562,6 @@ padding-bottom:20px;
 
 .regular-customers-svgs {
     height: 60px;
-        width: 106px;
         padding: 16px 32px 16px 32px;
         border: 1px solid rgba(175, 177, 184, 1);
         border-radius: 4px;
@@ -669,7 +668,7 @@ padding-bottom:20px;
 
 .modal-box {
 background-color: #fff;
-    width: 528px;
+    width: 450px;
     height: 581px;
     border-radius:4px;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
@@ -689,7 +688,7 @@ background-color: #fff;
     border-radius:50%;
     background-color:transparent;
     cursor:pointer;
-    left:491px;
+    left:406px;
     top:8px;
     transition: fill 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
     
@@ -806,6 +805,10 @@ fill:rgba(33, 150, 243, 1);
     position:relative;
 }
 
+.input-container input {
+    width:324px;
+}
+
 .input-class:focus {
     border:1px solid rgba(33, 150, 243, 1);
     border-radius:4px;
@@ -838,11 +841,12 @@ fill:rgba(33, 150, 243, 1);
 
 .checkbox-text {
     font-family: var(--heading-font-family);
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.03em;
         color: rgba(117, 117, 117, 1);
+        text-align:right;
 }
 
 .terms-and-conditions {
@@ -1149,6 +1153,29 @@ appearance:none;
             cubic-bezier(0.4, 0, 0.2, 1) ease;
 }
 
+.regular-customers {
+    display:flex;
+    gap: 30px;
+    padding-bottom:60px;
+}
+
+.regular-customers-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.regular-customers-container .regular-customers-svgs {
+    width:144px;
+}
+
+.regular-customers-tablet-view {
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) {
     .global-header .main-navigation .contact-container .list-class {
@@ -1226,6 +1253,18 @@ appearance:none;
                 }
                 .mobile-menu-icon {
                     display:none;
+                }
+
+                .regular-customers {
+                    flex-direction:column;
+                }
+                
+                .regular-customers-tablet-view {
+                    flex-direction:row;
+                }
+
+                .regular-customers-container .regular-customers-svgs {
+                    width: 160px;
                 }
 
 }
@@ -1372,5 +1411,32 @@ appearance:none;
                 .mobile-menu-icon {
                     display:none;
                 }
+
+                .regular-customers {
+                    flex-direction:row;
+                }
+
+                .regular-customers-container .regular-customers-svgs {
+                    width: 104px;
+                }
+
+                .close-modal-button {
+                    left:491px;
+                }
+
+                .input-container input {
+                    width:404px;
+                }
+
+                .checkbox-text {
+                    font-size: 14px;
+                    text-align:center;
+                }
+
+                .modal-box {
+                    width:528px;
+                }
+
+
 }
 
